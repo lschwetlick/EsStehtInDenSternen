@@ -29,7 +29,8 @@ body {
 
 textarea {
   text-align: center;
-  height: 100%;
+  /* Chrome shows scrollbar for 100% */
+  height: 98%;
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: 'JandaSparkleandShine';
