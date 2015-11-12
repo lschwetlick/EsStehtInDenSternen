@@ -14,10 +14,15 @@ html {
 }
 
 body {
-	font-family: 'JandaSparkleandShine';
-	color: white;
+  font-family: 'JandaSparkleandShine';
+  color: white;
 }
 
-input {
-	border: none;
+textarea {
+  font-family: 'JandaSparkleandShine';
+  border: none;
+  color: white;
+  background: transparent;
+  font-size: 70px;
+  width: 100%;
 }
