@@ -39,6 +39,8 @@ textarea {
   background: transparent;
   font-size: 70px;
   width: 100%;
+  /* Hide resize handle */
+  resize: none;
 }
 
 textarea:focus {
