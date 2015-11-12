@@ -26,3 +26,7 @@ textarea {
   font-size: 70px;
   width: 100%;
 }
+
+textarea:focus {
+  outline: none;
+}
