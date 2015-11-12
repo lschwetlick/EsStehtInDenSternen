@@ -6,6 +6,7 @@
 }
 
 html {
+  height: 100%;
   background: url(img/background2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,11 +15,18 @@ html {
 }
 
 body {
+  height: 100%;  
   font-family: 'JandaSparkleandShine';
   color: white;
 }
 
+.content {
+  height: 100%;
+}
+
 textarea {
+  text-align: center;
+  height: 100%;
   font-family: 'JandaSparkleandShine';
   border: none;
   color: white;
