@@ -16,17 +16,22 @@ html {
 
 body {
   height: 100%;  
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: 'JandaSparkleandShine';
   color: white;
 }
 
 .content {
   height: 100%;
+  margin: 0;
 }
 
 textarea {
   text-align: center;
   height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: 'JandaSparkleandShine';
   border: none;
   color: white;
