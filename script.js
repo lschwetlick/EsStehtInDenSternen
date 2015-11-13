@@ -27,3 +27,11 @@ function obfuscate(message) {
 function deobfuscate(message) {
 	return decodeURI(atob(message));
 }
+
+function download() {
+	html2canvas(document.body).then(function(canvas) {
+		canvas.toBlob(function(blob) {
+			saveAs(blob, "es_steht_in_den_sternen.png");
+		});
+	});
+}
