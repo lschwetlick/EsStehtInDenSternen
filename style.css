@@ -37,10 +37,11 @@ textarea {
   border: none;
   color: white;
   background: transparent;
-  font-size: 70px;
+  font-size: 75px;
   width: 100%;
   /* Hide resize handle */
   resize: none;
+  text-shadow: 2px 2px 3px black;
 }
 
 textarea:focus {
