@@ -13,9 +13,14 @@ $(document).ready(function() {
 	// JQuery's .change() doesn't do the trick for <textarea>
 	// http://stackoverflow.com/questions/11338592/how-can-i-bind-to-the-change-event-of-a-textarea-in-jquery
 	$starwriting.bind('input change', function() {
-		// self in this context is window and not $starwriting
-		var coded = obfuscate($starwriting.val());
+		var coded = obfuscate($(this).val());
 		window.location.hash = coded;
+	});
+	
+	$('#download').click(function() {
+		$(this).hide();
+		download();	
+		$(this).show();
 	});
 });
 
