@@ -40,6 +40,7 @@ textarea {
   /* Hide resize handle */
   resize: none;
   text-shadow: 2px 2px 3px black;
+  padding-top: 40px;
 }
 
 textarea:focus {
